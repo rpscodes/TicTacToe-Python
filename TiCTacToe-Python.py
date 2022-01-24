@@ -34,7 +34,7 @@ def display(row):
 def choice_letter():
     letter1 = "k"
     while letter1.lower() not in ['o','x']:
-        letter1 = input("Welcome Player 1 -  Please choose either x or o: ")
+        letter1 = input("Hello and Welcome Player 1 -  Please choose either x or o: ")
     if letter1.lower() == 'x':
         letter2 = 'o'
     else:
